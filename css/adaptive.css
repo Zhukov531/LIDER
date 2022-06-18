@@ -1,0 +1,17 @@
+@media screen and (max-width:430px) {
+
+    .header{
+        background-position: 40%;
+    }
+    .header-h1{
+        font-size: 60px;
+    }
+    .section-1{
+        padding: 50px 25px;
+    }
+    .section-1-content{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+}
