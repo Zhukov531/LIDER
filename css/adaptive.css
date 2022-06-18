@@ -13,5 +13,41 @@
         flex-wrap: wrap;
         justify-content: center;
     }
-    
+    .section-1-block{
+        margin-bottom: 50px;
+    }
+    .section-2{
+        padding: 50px 25px;
+        background-position: 60%;
+        box-shadow: inset 15px 15px 500px 50px rgb(0, 0, 0);
+    }
+    .section-3-content{
+        height: 50vh;
+    }
+    .footer{
+        padding: 20px 25px;
+        padding-bottom: 40px;
+        text-decoration: none;
+        color: white;
+    }
+    .footer-div{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-block{
+        margin-bottom: 50px;
+    }
+    .footer-f-img, .footer-img-message {
+        max-width: 30px;
+    }
+    .footer-block-h3, .footer-h3-message{
+        font-size: 16px;
+    }
+    .footer-mes-img{
+        max-width: 45px;
+    }
+    .footer-phone-number{
+        text-decoration: none;
+        color: white;
+    }
 }
