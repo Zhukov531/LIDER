@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ruda:wght@400;500;600;700;800;900&display=swap');
+html {
+  scroll-behavior: smooth;
+}
 body{
     margin: 0;
     padding: 0;
@@ -40,7 +43,6 @@ body{
     font-size: 15px;
     font-weight: 700;
     transition: 0.3s;
-    
 }
 .header-btn:hover{
     box-shadow: 6px 3px 10px 0px #FFFFFFCF;
@@ -83,7 +85,7 @@ body{
     background: url(../img/section2.jpeg);
     background-size: cover;
     color: white;
-    padding: 100px 50px;
+    padding: 50px 100px;
 }
 .section-2-content {
     height: 100%;
@@ -109,4 +111,62 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+/* --------------------------------------------------- */
+/* Footer */
+
+.footer {
+    scroll-behavior: smooth;
+    background: #202020;
+    padding: 50px 100px;
+    color: white;
+}
+.footer-h2 {
+    font-size: 30px;
+    text-align: center;
+}
+.footer-div {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-f-img {
+    max-width: 40px;
+}
+.footer-phone-number {
+    margin-top: 15px;
+    font-size: 18px;
+}
+/* ----------------- */
+.footer-img-message {
+    max-width: 40px;
+}
+.footer-h3-message {
+    max-width: 500px;
+}
+.message-images {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-mes-img {
+    max-width: 50px;
+    margin: 0px 20px;
+}
+
+.code-by-zhkv {
+    background: black;
+    font-size: 10px;
+    text-align: center;
+    padding: 5px;
+}
+.c-b-zhkv {
+    color: whitesmoke;
 }
